@@ -1,3 +1,9 @@
+arib25-gst-installer (1.0-1ppa2) trusty; urgency=low
+
+  * remove verbose trace from postinst.
+
+ -- soburi <soburi@gmail.com>  Sat, 19 Apr 2014 19:09:53 +0900
+
 arib25-gst-installer (1.0-1) trusty; urgency=low
 
   * Initial release (Closes: #9999999999)
