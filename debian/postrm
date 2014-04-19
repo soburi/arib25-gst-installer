@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+	purge)
+		rm -rf /var/cache/arib25-gst-installer/*
+		;;
+	remove)
+		if [ -f /var/cache/arib25-gst-installer/installed-files ] ; then
+			rm -rf `cat /var/cache/arib25-gst-installer/installed-files`
+		fi
+		;;
+esac
+
+#DEBHELPER#
+
+exit 0
+

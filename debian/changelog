@@ -1,0 +1,5 @@
+arib25-gst-installer (1.0-1) trusty; urgency=low
+
+  * Initial release (Closes: #9999999999)
+
+ -- soburi <soburi@gmail.com>  Tue, 11 Mar 2014 18:08:28 +0900

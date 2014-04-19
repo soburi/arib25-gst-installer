@@ -1,0 +1,16 @@
+Source: arib25-gst-installer
+Section: video
+Priority: optional
+Maintainer: soburi <soburi@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/soburi/arib25-gst-installer.git
+Vcs-Browser: http://github.com/soburi/arib25-gst-installer.git
+#Vcs-Git: git://git.debian.org/collab-maint/gstb25packaget.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/gstb25packaget.git;a=summary
+
+Package: arib25-gst-installer
+Architecture: all
+Depends: ${misc:Depends}, debhelper (>= 9.0.0), libpcsclite-dev, libgstreamer1.0-dev, libglib2.0-dev, autotools-dev
+Description: Installer package for arib25-gst.
+ Installing ARIB STD B25 specification verifier gstreamer plugin.
