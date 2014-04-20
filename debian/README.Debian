@@ -1,6 +1,10 @@
 arib25-gst-installer for Debian
 -------------------------
 
-Installer package for arib25-gst(https://github.com/tokitah/arib25-gst).
+Installer package for arib25-gst.
+
+arib25-gst
+----------
+https://github.com/tokitah/arib25-gst
 
  -- soburi <soburi@gmail.com>  Tue, 11 Mar 2014 18:08:28 +0900
